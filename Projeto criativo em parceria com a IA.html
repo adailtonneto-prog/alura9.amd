@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Projeto criativo em parceria com a IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#F6F3FF; --ink:#1B1340; --muted:#5B5478; --card:#FFFFFF;
+  --accent:#6C3CF0; --pop:#FF5C8A; --line:#1B1340;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#140F2E;--ink:#F1EDFF;--muted:#B5ACDA;--card:#1E1745;--accent:#A98BFF;--pop:#FF7FA3;--line:#F1EDFF}
+}
+:root[data-theme="dark"]{--bg:#140F2E;--ink:#F1EDFF;--muted:#B5ACDA;--card:#1E1745;--accent:#A98BFF;--pop:#FF7FA3;--line:#F1EDFF}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65;font-size:17px}
+main{max-width:760px;margin:0 auto;padding:56px 22px 72px}
+h1{font-family:"Bricolage Grotesque","Trebuchet MS",sans-serif;font-weight:800;font-size:clamp(36px,8vw,60px);line-height:1.05;margin:0 0 14px;letter-spacing:-.02em}
+h1 span{display:block;color:var(--accent)}
+.lead{color:var(--muted);margin:0 0 32px;max-width:60ch}
+.project{background:var(--pop);color:#1B1340;border:2px solid var(--line);border-radius:14px;padding:18px 24px;margin-bottom:28px;font-weight:500}
+.project strong{font-family:"Bricolage Grotesque","Trebuchet MS",sans-serif;font-size:20px}
+.list{display:grid;gap:20px}
+.box{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:22px 24px;box-shadow:6px 6px 0 var(--accent)}
+.box.alt{box-shadow:6px 6px 0 var(--pop)}
+h2{font-family:"Bricolage Grotesque","Trebuchet MS",sans-serif;font-weight:600;font-size:21px;line-height:1.25;margin:0 0 10px}
+.box p{margin:0}
+.end{margin-top:28px;background:var(--ink);color:var(--bg);border-radius:14px;padding:24px 26px;border:2px solid var(--line)}
+.end h2{color:var(--bg)}
+.end p{margin:0}
+</style>
+</head>
+<body>
+<main>
+  <h1>Projeto criativo<span>em parceria com a IA</span></h1>
+  <p class="lead">Minha análise sobre como seria desenvolver um projeto criativo em colaboração com uma inteligência artificial.</p>
+
+  <div class="project">
+    <strong>Projeto escolhido</strong><br>
+    Criar um cartaz digital para divulgar a Feira das Profissões da minha escola.
+  </div>
+
+  <div class="list">
+    <section class="box">
+      <h2>Como a IA poderia facilitar a criação</h2>
+      <p>A IA poderia me dar ideias de títulos e frases curtas, sugerir paletas de cores e mostrar exemplos de composição. Isso economizaria tempo na fase de pesquisa e me ajudaria quando eu estivesse sem inspiração.</p>
+    </section>
+
+    <section class="box alt">
+      <h2>O que eu faria melhor sem a ajuda dela</h2>
+      <p>Eu faria melhor a escolha da identidade visual, porque conheço o público e a escola. Também decidiria o que combina com o evento e daria a ele um estilo pessoal. A sensibilidade de design e a decisão final devem ser minhas.</p>
+    </section>
+
+    <section class="box">
+      <h2>De que forma ela poderia atrapalhar o processo</h2>
+      <p>Ela poderia me levar a copiar ideias muito comuns e deixar o cartaz parecido com os de outras pessoas. Também poderia sugerir informações erradas, e eu me acostumar a depender dela em vez de desenvolver minha criatividade.</p>
+    </section>
+
+    <section class="box alt">
+      <h2>Como eu me sentiria trabalhando em parceria com essa tecnologia</h2>
+      <p>Eu me sentiria mais confiante e ágil, como se tivesse um apoio para testar ideias. Ao mesmo tempo, ficaria atenta para que o resultado continuasse sendo meu.</p>
+    </section>
+  </div>
+
+  <section class="end">
+    <h2>Conclusão</h2>
+    <p>A IA é uma boa ferramenta de apoio na criação, principalmente para ganhar tempo e ter ideias iniciais. A criatividade, o olhar crítico e a decisão final precisam continuar com a pessoa. Trabalhar em parceria funciona melhor quando eu uso a IA como ajuda e não como substituta.</p>
+  </section>
+</main>
+</body>
+</html>
